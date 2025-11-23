@@ -9,7 +9,7 @@ public class MoveSquare2 : MonoBehaviour
     [SerializeField] private float _speed       = 5.0f;
     [SerializeField] private float _maxDistance = 5.0f;
 
-    private Vector3 startPosition;
+    private Vector2 startPosition;
     private Vector2 direction;
 
     // Start is called before the first frame update
